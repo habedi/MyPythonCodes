@@ -54,7 +54,7 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
     k = 1
     conductance_list = []
 
-    if max_cutsize > 0:
+    if max_cutsize < 0:
         limit = (len(dspprv)) # cutsize could be as big as the graph itself
     else:
         limit = max_cutsize # maximum size of the cut with minimum conductance 
@@ -74,4 +74,4 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
 g = loadGraph(gfile='../data/snap-dblp/com-dblp.ungraph.txt')
 a = ppr(g, seed=5, alpha=0.85, epsilon=10e-8, iters=100)
 b = ppr_sorted(g, pprv=a)
-print (min_cond_cut(g, dspprv=b, max_cutsize=10)) # finding the best community arround NodeId=5
+print (min_cond_cut(g, dspprv=b, max_cutsize=10)) # finding the best community around NodeId==5
