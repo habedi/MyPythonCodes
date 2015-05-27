@@ -54,7 +54,7 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
     k = 1
     conductance_list = []
 
-    if max_cutsize < 0:
+    if max_cutsize < 1:
         limit = (len(dspprv)) # cutsize could be as big as the graph itself
     else:
         limit = max_cutsize # maximum size of the cut with minimum conductance 
