@@ -18,7 +18,8 @@ class GraphDegDistr(object):
         else:
             with open(output_file, "w") as of:
                 for NI in self.Graph.Nodes():
-                    of.write(str(NI.GetId())+"\t"+str(NI.GetOutDeg())+"\n")
+                    of.write(str(NI.GetId())+"\t"+
+                             str(NI.GetOutDeg())+"\n")
                     pass
         return
         

@@ -3,10 +3,14 @@ from yahooboss import BossSearch
 class YSearch(object):
 
     def __init__(self, key, secret_secret, max_results=50, result_age=10):
-        self.key = key # your OATH2 key issued by Yahoo
-        self.secret_key = secret_secret # your OATH2 secret_key issued by Yahoo
-        self.age = result_age # maximum age of results default 10 days
-        self.results_per_page = max_results # maximum number of results per page/request default 50 results
+        # your OATH2 key issued by Yahoo
+        self.key = key
+        # your OATH2 secret_key issued by Yahoo
+        self.secret_key = secret_secret
+        # maximum age of results default 10 days
+        self.age = result_age
+        # maximum number of results per page/request default 50 results
+        self.results_per_page = max_results 
         pass
     
     def fetchYahooURLs(self, term):
