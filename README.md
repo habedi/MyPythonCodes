@@ -12,6 +12,7 @@ Hmm ... practice makes perfect they say, trying to better my Python coding a lit
 4. A Python class to search the web and get the URLs of found results via Yahoo search engine {codes/YSearch.py}
 5. Snowball-Sampling in NetworkX {codes/snowballsampling.py}
 6. Personalized PageRank for Community Detection in Python {codes/personalized_pagerank.py}
+7. A Python class for Drankard's Walk motion(a simple Markov Chain Model) {codes/DrunkardWalk.py}
 
 
 ---
