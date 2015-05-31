@@ -13,6 +13,7 @@ Hmm ... practice makes perfect they say, trying to better my Python coding a lit
 5. Snowball-Sampling in NetworkX {codes/snowballsampling.py}
 6. Personalized PageRank for Community Detection in Python {codes/personalized_pagerank.py}
 7. A Python class for Drankard's Walk motion(a simple Markov Chain model) {codes/DrunkardWalk.py}
+8. Cellular Automaton Simulation in Python by PyGame {codes/ca.py}
 
 
 ---
