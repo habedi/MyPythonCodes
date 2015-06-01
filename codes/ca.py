@@ -112,6 +112,7 @@ def main():
     CursRect = Cursor(0, 0, 10, 10, (255, 0, 0))
     drawGrid(grid, 10)
     Cycle = 0
+    mouse_state = False
     continous = False
     while True:
         for event in pygame.event.get():
@@ -126,15 +127,19 @@ def main():
                 mx = (mx / 10)
                 my = (my / 10)
                 CursRect.Move(mx, my)
+                if mouse_state:
+                    Cells[mx, my].state = 1
                 pass
                 
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
-                    print "Cell %i, %i = 1" % (mx, my)
+                    print ("Cell %i, %i = 1" % (mx, my))
                     Cells[mx, my].state = 1
                 elif event.button == 1:
                     print Cells[mx, my].Lneigh
-                    pass
+                    
+                mouse_state = not mouse_state
+                pass
                     
             elif event.type == pygame.KEYUP:
                 # pressing TAB clears the world
@@ -147,7 +152,7 @@ def main():
                     continous = False
                     pass
                 if event.key == K_RETURN:
-                    continous = True
+                    continous = not continous
                     pass
                 
             if continous:
