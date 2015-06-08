@@ -75,6 +75,11 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
     return min(conductance_list, key=itemgetter(1))
 
 ## running the code ..
+
+def loadGraph(gfile):
+    return nx.read_edgelist(path=gfile, comments='#',
+                            delimiter="\t", nodetype=int)
+
 g = loadGraph(gfile='../data/snap-dblp/com-dblp.ungraph.txt')
 a = ppr(g, seed=5, alpha=0.85, epsilon=10e-8, iters=100)
 b = ppr_sorted(g, pprv=a)
