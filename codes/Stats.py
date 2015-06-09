@@ -30,6 +30,10 @@ class Stats(object):
         return max(d, key=d.get)
     
     def getMedian(self,):
+        sseq = sorted(self.seq)
+        if len(sseq)%2 == 0:
+            return sseq[len(sseq)%2 - 1]
+        
         pass
 
 # test and debug
