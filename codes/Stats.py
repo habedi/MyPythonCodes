@@ -1,5 +1,5 @@
 from __future__ import print_function
-
+import math
 
 # my statistical class
 class Stats(object):
@@ -31,13 +31,15 @@ class Stats(object):
     
     def getMedian(self,):
         sseq = sorted(self.seq)
-        if len(sseq)%2 == 0:
-            return sseq[len(sseq)%2 - 1]
-        
-        pass
+        mid = int(math.floor(len(sseq)%2.0))
+        if len(sseq)%2.0 > 0:
+            return sseq[mid + 1]
+        print ("mid=", mid)
+        return (sseq[mid] + sseq[mid + 1])/2.0
 
 # test and debug
 s = Stats(seq=[1,1,2,3,45,8,2,0,0.2,-8])
 print (s.getCD())
 print (s.getMean())
 print (s.getMode())
+print (s.getMedian())
