@@ -34,7 +34,7 @@ class Stats(object):
         mid = int(math.floor(len(sseq)%2.0))
         if len(sseq)%2.0 > 0:
             return sseq[mid + 1]
-        print ("mid=", mid)
+        #print ("mid=", mid)
         return (sseq[mid] + sseq[mid + 1])/2.0
 
 # test and debug
