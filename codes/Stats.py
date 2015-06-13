@@ -31,14 +31,14 @@ class Stats(object):
     
     def getMedian(self,):
         sseq = sorted(self.seq)
-        mid = int(math.floor(len(sseq)%2.0))
+        print(sseq)
+        mid = int(math.floor(len(sseq)/2.0))
         if len(sseq)%2.0 > 0:
-            return sseq[mid + 1]
-        #print ("mid=", mid)
-        return (sseq[mid] + sseq[mid + 1])/2.0
+            return sseq[mid]
+        return (sseq[mid - 1] + sseq[mid])/2.0
 
 # test and debug
-s = Stats(seq=[1,1,2,3,45,8,2,0,0.2,-8])
+s = Stats(seq=[1,7,2,3,45,8,3,0,0.2,-8,-5])
 print (s.getCD())
 print (s.getMean())
 print (s.getMode())
