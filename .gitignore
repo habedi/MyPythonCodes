@@ -59,3 +59,7 @@ target/
 # don't add temp files
 *~
 *#
+
+# tempdirs
+temp
+test
