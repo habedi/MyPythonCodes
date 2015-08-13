@@ -15,6 +15,7 @@ Hmm ... practice makes perfect they say, trying to better my Python coding a lit
 7. A Python class for Drankard's Walk motion(a simple Markov Chain model) {codes/DrunkardWalk.py}
 8. Cellular Automaton Simulation in Python by PyGame {codes/ca.py}
 9. Simple statistical functionalities in Python (v0.02) {codes/Stats.py}
+10. A simple Python programme to find the list of all unique links inside a URL {codes/LinkFinder.py}
 
 
 ---
