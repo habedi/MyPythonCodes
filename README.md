@@ -1,7 +1,7 @@
 # -myPython-LanguageCodes
 Hmm ... practice makes perfect they say, trying to better my Python coding a little ...
 
-[![GitHub issues](https://img.shields.io/github/issues/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/issues)	[![GitHub forks](https://img.shields.io/github/forks/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/network)	[![GitHub stars](https://img.shields.io/github/stars/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/stargazers)	[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=plastic)](https://raw.githubusercontent.com/habedi/-myPython-LanguageCodes/master/LICENSE)	[![Twitter](https://img.shields.io/twitter/url/https/github.com/habedi/-myPython-LanguageCodes.svg?style=social&style=plastic)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![GitHub issues](https://img.shields.io/github/issues/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/issues)	[![GitHub forks](https://img.shields.io/github/forks/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/network)	[![GitHub stars](https://img.shields.io/github/stars/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/stargazers)	[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=plastic)](https://raw.githubusercontent.com/habedi/-myPython-LanguageCodes/master/LICENSE)
 
 ---
   my codes so far:
