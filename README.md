@@ -8,18 +8,18 @@ Hmm ... practice makes perfect they say, trying to better my Python coding a lit
 ---
 
 
-1. Bipartite Graphs in Igraph (Py2) {codes/bipartite.py}
-2. A Timer class to find out about the running time of a of piece of code in Python {codes/Timer.py}
-3. A Python class to get the degree distribution of nodes of a graph via SNAPY {codes/GraphDegDistr.py}
-4. A Python class to search the web and get the URLs of found results via Yahoo search engine {codes/YSearch.py}
-5. Snowball-Sampling in NetworkX {codes/snowballsampling.py}
-6. Personalized PageRank for Community Detection in Python {codes/personalized_pagerank.py}
-7. A Python class for Drankard's Walk motion(a simple Markov Chain model) {codes/DrunkardWalk.py}
-8. Cellular Automaton Simulation in Python by PyGame {codes/ca.py}
-9. Simple statistical functionalities in Python (v0.02) {codes/Stats.py}
-10. A simple Python programme to find the list of all unique links inside a URL {codes/LinkFinder.py}
-11. A Python class to search the web using Google search engine {codes/googlesearch.py}
-12. A Python class to colourise text {codes/colours.py}
+1. Bipartite Graphs in Igraph (Py2) -> [bipartite.py](bipartite.py)
+2. A Timer class to find out about the running time of a of piece of code in Python -> [Timer.py](codes/Timer.py)
+3. A Python class to get the degree distribution of nodes of a graph via SNAPY -> [GraphDegDistr.py](codes/GraphDegDistr.py)
+4. A Python class to search the web and get the URLs of found results via Yahoo search engine -> [YSearch.py](codes/YSearch.py)
+5. Snowball-Sampling in NetworkX -> [snowballsampling.py](codes/snowballsampling.py)
+6. Personalized PageRank for Community Detection in Python -> [personalized_pagerank.py](codes/personalized_pagerank.py)
+7. A Python class for Drankard's Walk motion(a simple Markov Chain model) -> [DrunkardWalk.py](codes/DrunkardWalk.py)
+8. Cellular Automaton Simulation in Python by PyGame -> [ca.py](codes/ca.py)
+9. Simple statistical functionalities in Python (v0.02) -> [Stats.py](codes/Stats.py)
+10. A simple Python programme to find the list of all unique links inside a URL -> [LinkFinder.py](codes/LinkFinder.py)
+11. A Python class to search the web using Google search engine -> [googlesearch.py](codes/googlesearch.py)
+12. A Python class to colourise text -> [colours.py](codes/colours.py)
 
 
 ---
