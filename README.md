@@ -1,10 +1,10 @@
 # My Python Codes
-Hmm ... practice makes perfect they say, trying to better my Python coding a little ...
+Hmm ... Practice makes perfect they say, So I'm trying to better my Python coding a little ...
 
 [![GitHub issues](https://img.shields.io/github/issues/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/issues)	[![GitHub forks](https://img.shields.io/github/forks/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/network)	[![GitHub stars](https://img.shields.io/github/stars/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/stargazers)	[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=plastic)](https://raw.githubusercontent.com/habedi/-myPython-LanguageCodes/master/LICENSE)
 
 ---
-  my codes so far:
+  My Python codes so far:
 ---
 
 
