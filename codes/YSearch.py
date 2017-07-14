@@ -1,5 +1,7 @@
 from yahooboss import BossSearch
 
+# YAHOO SEARCH API IS NOT AVAILABLE ANYMORE!
+
 class YSearch(object):
 
     def __init__(self, key, secret_secret, max_results=50, result_age=10):
