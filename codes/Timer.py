@@ -10,6 +10,4 @@ class Timer(object):
     def __exit__(self, type, value, traceback):
         if self.name:
             print (str(self.name))
-        print ('Elapsed time is: ' + str(time.time() - self.tstart))
-        pass
-    pass
+        print ('Elapsed time is: ' + str(time.time() - self.tstart)
