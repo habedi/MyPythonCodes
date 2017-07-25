@@ -1,4 +1,5 @@
 from __future__ import print_function
+
 import math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -6,10 +7,7 @@ import numpy as np
 # my statistical class
 class Stats(object):
     
-    def __init__(self,):
-        pass
-    
-    def getCD(self, seq):
+    def get_cd(self, seq):
         freq = {}
         for value in seq:
             if value not in freq:
@@ -18,14 +16,14 @@ class Stats(object):
                 freq[value] += 1
         return freq
 
-    def getMean(self, seq):
+    def get_mean(self, seq):
         return sum(seq)/len(seq)
 
-    def getMode(self, seq):
+    def get_mode(self, seq):
         d = self.getCD(seq=seq)
         return max(d, key=d.get)
     
-    def getMedian(self, seq):
+    def get_median(self, seq):
         sseq = sorted(seq)
         mid = int(math.floor(len(sseq)/2.0))
         if len(sseq)%2.0 > 0:
@@ -57,10 +55,10 @@ class Stats(object):
 seq_x = [1,7,2,3,45,8,3,0,0.2,-8,-5]
 seq_xy = np.random.random((4,4))
 s = Stats()
-print ('[cummulative distribution of data]=>', s.getCD(seq=seq_x))
-print ('[mean of data]=>', s.getMean(seq=seq_x))
-print ('[mode of data]=>', s.getMode(seq=seq_x))
-print ('[median of data]=>', s.getMedian(seq=seq_x))
+print ('[cummulative distribution of data]=>', s.get_cd(seq=seq_x))
+print ('[mean of data]=>', s.get_mean(seq=seq_x))
+print ('[mode of data]=>', s.get_mode(seq=seq_x))
+print ('[median of data]=>', s.get_median(seq=seq_x))
 print ('[draw heatmap of data with lables]=>', s.heatmap(seq_xy=seq_xy,
                                            x_labels=['a','b','c','d'],
                                            y_labels=['w','x','y','z']))
