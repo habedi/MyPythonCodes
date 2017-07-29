@@ -10,7 +10,6 @@ class LinkFinder(HTMLParser):
                 if key == 'href':
                     newUrl = urljoin(self.baseUrl, value)
                     self.links = self.links + [newUrl]
-    pass
 
     def getLinks(self, url):
         self.links = []
@@ -24,14 +23,11 @@ class LinkFinder(HTMLParser):
         except Exception as e:
             print(e)
             return []
-    pass
 
 def spider(url, maxPages):
     parser = LinkFinder()
     for link in parser.getLinks(url=url):
         print(link)
-        pass
-    pass
 
 ## running ...
 spider(url="http://eu.battle.net/wow/en/", maxPages=20)
