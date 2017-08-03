@@ -29,5 +29,6 @@ def spider(url, maxPages):
     for link in parser.getLinks(url=url):
         print(link)
 
-## running ...
-spider(url="http://eu.battle.net/wow/en/", maxPages=20)
+if __name__ == "__main__":
+    ## running ...
+    spider(url="http://eu.battle.net/wow/en/", maxPages=20)
