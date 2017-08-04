@@ -45,7 +45,6 @@ class DrunkardsWalk(object):
                 ax.set_zlabel('Z Axis')
                 ax.legend()
                 mpl.show()
-                pass
         
         def runDW2d(self,):
                 fig = mpl.figure()
@@ -62,8 +61,6 @@ class DrunkardsWalk(object):
                 ax.set_ylabel('Y Axis')
                 ax.legend()
                 mpl.show()
-                pass
-        pass
 
 ## running the code ..
 dw = DrunkardsWalk()
