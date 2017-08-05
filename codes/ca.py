@@ -5,7 +5,6 @@ Cells = {}
 HEIGHT = 600
 WIDTH = 600
 
-
 class classCell:
     
     def __init__(self, x, y, state):
@@ -16,7 +15,6 @@ class classCell:
         self.Lneigh = 0
         self.Dneigh = 0
         self.state = state
-        pass
 
     def getState(self):
         return self.state
@@ -26,7 +24,6 @@ class classCell:
             self.Lneigh += 1
         elif state == 0:
             self.Lneigh += 0
-        pass
             
     def getNeigh(self):
         return self.Lneigh
@@ -37,7 +34,6 @@ class classCell:
         elif self.state == 1:
             self.col = (0, 0, 0)
         pygame.draw.rect(surf, self.col, (self.x * self.w, self.y * self.h, self.w, self.h), 0)
-        pass
 
 def UpdateNeighs():
     x = 0
@@ -78,17 +74,13 @@ class Cursor:
         self.w = w
         self.h = h
         self.col = col
-        pass
     
     def Move(self, x, y):
         self.x = x
         self.y = y
-        pass
     
     def Draw(self, surf):
         pygame.draw.rect(surf, self.col, (self.x * self.w, self.y * self.h, self.w, self.h), 1)
-        pass
-    pass
         
 def drawGrid(surf, size):
     surf.fill((255, 255, 255))
@@ -129,7 +121,6 @@ def main():
                 CursRect.Move(mx, my)
                 if mouse_state:
                     Cells[mx, my].state = 1
-                pass
                 
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
@@ -139,7 +130,6 @@ def main():
                     print Cells[mx, my].Lneigh
                     
                 mouse_state = not mouse_state
-                pass
                     
             elif event.type == pygame.KEYUP:
                 # pressing TAB clears the world
@@ -150,16 +140,12 @@ def main():
                     UpdateNeighs()
                     UpdateStates()
                     continous = False
-                    pass
                 if event.key == K_RETURN:
                     continous = not continous
-                    pass
                 
             if continous:
                 UpdateNeighs()
                 UpdateStates()
-                pass
-        
         x = 0
         y = 0
         for y in range(0, (HEIGHT / 10)):
