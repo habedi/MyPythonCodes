@@ -13,7 +13,6 @@ class YSearch(object):
         self.age = result_age
         # maximum number of results per page/request default 50 results
         self.results_per_page = max_results 
-        pass
     
     def fetchYahooURLs(self, term):
         """ this method returns a generator of urls containing %results_per_page%
@@ -23,4 +22,3 @@ class YSearch(object):
         web_results = bs.search_web(term)
         for wr in web_results:
             yield wr.get('url')
-            pass
