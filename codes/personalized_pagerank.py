@@ -7,18 +7,14 @@ def ppr(g, seed, alpha=0.85, epsilon=10e-8, iters=100):
     T = [seed]
     for node in g.neighbors(seed):
         T.append(node)
-        pass
     for node in g:
         if node in T: 
             pref.update({node:(1.0 / len(T))})
-            pass
         else:
             pref.update({node:0.0})
-            pass
-    pass
-    x = nx.pagerank(g, alpha=alpha, personalization=pref, max_iter=iters,
+            
+    return nx.pagerank(g, alpha=alpha, personalization=pref, max_iter=iters,
                 tol=epsilon)
-    return x
 
 def ppr_sorted(g, pprv):
     spprv = {}
@@ -26,8 +22,7 @@ def ppr_sorted(g, pprv):
         k, v = item
         spprv.update({k:(v/g.degree(k))})
         pass
-    dspprv = sorted(spprv.items(), key=itemgetter(1), reverse=True)
-    return dspprv
+    return sorted(spprv.items(), key=itemgetter(1), reverse=True)
 
 def min_cond_cut(g, dspprv, max_cutsize=0):
     
@@ -38,18 +33,15 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
             for n in g.neighbors(node):
                 if n not in nbunch:
                     sigma += 1.0
-                    pass
-                pass
-            pass
+                    
         for degseq in g.degree().iteritems():
             node, degree = degseq
             if node not in nbunch:
                 vol2 += degree
             else:
                 vol1 += degree
-            pass
-        cond = (sigma / min(vol1, vol2))
-        return cond
+                
+        return (sigma / min(vol1, vol2))
     
     k = 1
     conductance_list = []
@@ -65,17 +57,16 @@ def min_cond_cut(g, dspprv, max_cutsize=0):
         nbunch = []
         for i in xrange(0, k):
             nbunch.append(dspprv[i][0])
-            pass
+            
         c = (k, conductance(nbunch))
         # conductane of current cut size
         print c
         conductance_list.append(c)
         k += 1
-        pass
+
     return min(conductance_list, key=itemgetter(1))
 
 ## running the code ..
-
 def loadGraph(gfile):
     return nx.read_edgelist(path=gfile, comments='#',
                             delimiter="\t", nodetype=int)
@@ -84,4 +75,4 @@ g = loadGraph(gfile='../data/snap-dblp/com-dblp.ungraph.txt')
 a = ppr(g, seed=5, alpha=0.85, epsilon=10e-8, iters=100)
 b = ppr_sorted(g, pprv=a)
 # finding the best community around NodeId==5
-print (min_cond_cut(g, dspprv=b, max_cutsize=10)) 
+print(min_cond_cut(g, dspprv=b, max_cutsize=10)) 
