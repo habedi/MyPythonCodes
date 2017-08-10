@@ -11,15 +11,13 @@ def loadBipartiteGraph(edgelist_file, nodetypes_file, edgelist_sep=" ",
         for line in ef:
             edge = line.strip().split(edgelist_sep)
             edges.append((int(edge[0]), int(edge[1])))
-            pass
-        pass
+            
     # reading the nodes' type file
     nodetypes = []
     with open(nodetypes_file, "r") as ntf:
         for line in ntf:
             nodetypes.append(int(line.strip()))
-            pass
-        pass
+
     # constructing a bipartite graph
     return ig.Graph.Bipartite(nodetypes, edges, directed=directed)
     
