@@ -24,8 +24,6 @@ that are collected from around seed node via snownball sampling """
                 subgraph.add(node)
             else :
                 return subgraph
-            pass
-        pass
     return subgraph
 
 def surroundings(g, subgraph):
@@ -36,9 +34,6 @@ input subgraph argument """
         for i in g.neighbors(node):
             if i not in surdngs:
                 surdngs.append(i)
-                pass
-            pass
-        pass
     return surdngs
 
 
