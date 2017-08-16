@@ -1,7 +1,7 @@
 from termcolor import colored
 
 class ColouredText(object):
-    """ Coloured Text Class """
+    """ Colourizing Text """
 
     @staticmethod
     def yellow(text):
