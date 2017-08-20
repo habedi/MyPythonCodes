@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 
+import random
+
 import numpy as np
-import matplotlib.pyplot as mpl 
+import matplotlib.pyplot as mpl
+
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import animation
-import random
 
 ## class implementing 2d and 3d drunkardwalk
 class DrunkardsWalk(object):
