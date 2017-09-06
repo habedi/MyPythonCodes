@@ -31,4 +31,4 @@ def spider(url, maxPages):
 
 if __name__ == "__main__":
     ## running ...
-    spider(url="http://eu.battle.net/wow/en/", maxPages=20)
+    spider(url="http://eu.battle.net/wow/en/", maxPages=10)
