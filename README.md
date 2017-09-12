@@ -14,7 +14,7 @@ Practice makes perfect they say, So I'm trying to better my Python coding a litt
 4. A Python class to search the web and get the URLs of found results via Yahoo search engine -> [YSearch.py](codes/YSearch.py)
 5. Snowball-Sampling in NetworkX -> [snowballsampling.py](codes/snowballsampling.py)
 6. Personalized PageRank for Community Detection in Python -> [personalized_pagerank.py](codes/personalized_pagerank.py)
-7. A Python class for Drankard's Walk motion(a simple Markov Chain model) -> [DrunkardWalk.py](codes/DrunkardWalk.py)
+7. A Python class for Drankard's Walk motion(a simple Markov Chain model) -> [DrunkardWalk.py](codes/drunkards_walk.py)
 8. Cellular Automaton Simulation in Python by PyGame -> [ca.py](codes/ca.py)
 9. Simple statistical functionalities in Python (v0.02) -> [Stats.py](codes/Stats.py)
 10. A simple Python programme to find the list of all unique links inside a URL -> [LinkFinder.py](codes/LinkFinder.py)
