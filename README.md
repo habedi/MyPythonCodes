@@ -10,7 +10,7 @@ Practice makes perfect they say, So I'm trying to better my Python coding a litt
 
 1. Bi-Partite Graphs in Igraph (Py2) -> [bipartite.py](bipartite.py)
 2. A Timer class to find out about the running time of a of piece of code in Python -> [Timer.py](codes/Timer.py)
-3. A Python class to get the degree distribution of nodes of a graph via SNAPY -> [GraphDegDistr.py](codes/GraphDegDistr.py)
+3. A Python class to get the degree distribution of nodes of a graph via SNAPY -> [GraphDegDistr.py](codes/graph_deg_distr.py)
 4. A Python class to search the web and get the URLs of found results via Yahoo search engine -> [YSearch.py](codes/YSearch.py)
 5. Snowball-Sampling in NetworkX -> [snowballsampling.py](codes/snowballsampling.py)
 6. Personalized PageRank for Community Detection in Python -> [personalized_pagerank.py](codes/personalized_pagerank.py)
