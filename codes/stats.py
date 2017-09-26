@@ -48,8 +48,6 @@ class Stats(object):
             plt.colorbar()
             plt.show()
         return 0
-            
-        
 
 # test and debug
 seq_x = [1,7,2,3,45,8,3,0,0.2,-8,-5]
