@@ -17,7 +17,7 @@ Practice makes perfect they say, So I'm trying to better my Python coding a litt
 7. A Python class for Drankard's Walk motion(a simple Markov Chain model) -> [drunkards_walk.py](codes/drunkards_walk.py)
 8. Cellular Automaton Simulation in Python by PyGame -> [ca.py](codes/ca.py)
 9. Simple statistical functionalities in Python (v0.02) -> [stats.py](codes/stats.py)
-10. A simple Python programme to find the list of all unique links inside a URL -> [LinkFinder.py](codes/LinkFinder.py)
+10. A simple Python programme to find the list of all unique links inside a URL -> [link_finder.py](codes/link_finder.py)
 11. A Python class to search the web using Google search engine -> [googlesearch.py](codes/googlesearch.py)
 12. A Python class to colourise text -> [colours.py](codes/colours.py)
 
