@@ -12,7 +12,7 @@ Practice makes perfect they say, So I'm trying to better my Python coding a litt
 2. A Timer class to find out about the running time of a of piece of code in Python -> [timer.py](codes/timer.py)
 3. A Python class to get the degree distribution of nodes of a graph via SNAPY -> [graph_deg_distr.py](codes/graph_deg_distr.py)
 4. A Python class to search the web and get the URLs of found results via Yahoo search engine -> [ysearch.py](codes/ysearch.py)
-5. Snowball-Sampling in NetworkX -> [snowballsampling.py](codes/snowball_sampling.py)
+5. Snowball-Sampling in NetworkX -> [snowball_sampling.py](codes/snowball_sampling.py)
 6. Personalized PageRank for Community Detection in Python -> [personalized_pagerank.py](codes/personalized_pagerank.py)
 7. A Python class for Drankard's Walk motion(a simple Markov Chain model) -> [drunkards_walk.py](codes/drunkards_walk.py)
 8. Cellular Automaton Simulation in Python by PyGame -> [ca.py](codes/ca.py)
