@@ -28,4 +28,4 @@ Practice makes perfect they say, So I'm trying to better my Python coding a litt
 
 
 1. A simple bipartite graph (graph) {data/bipartite/*}
-2. SNAP DBLP Graph data-set (graph) {data/snap-dblp/com-dblp.ungraph.txt
+2. SNAP DBLP Graph data-set (graph) {data/snap-dblp/com-dblp.ungraph.txt}
