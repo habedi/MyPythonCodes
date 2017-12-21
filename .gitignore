@@ -60,6 +60,7 @@ target/
 # don't add temp files
 *~
 *#
+*.gz
 
 # tempdirs
 temp
