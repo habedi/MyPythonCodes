@@ -4,6 +4,7 @@ def logloss(y: numpy.array, y_hat: numpy.array) -> float:
     return -y*numpy.log2(y_hat) - (1-y)*numpy.log2(1-y_hat)
 
 if __name__ == "__main__":
+    
   import matplotlib.pyplot as plt
   
   fig = plt.figure()
