@@ -5,14 +5,13 @@ import copy
 from numpy.random import randint
 
 def randomseed(g):
-    """This function recturns a single node from g, it's chosen
-with uniform probability"""
+    """This function recturns a single node from g, it's chosen with uniform probability"""
     ux = randint(0,g.number_of_nodes(),1)
     return ux[0]
 
 def snowballsampling(g, seed, maxsize=50):
-    """This function returns a set of nodes equal to maxsize from g
-that are collected from around seed node via snownball sampling"""
+    """This function returns a set of nodes equal to maxsize from g that are 
+    collected from around seed node via snownball sampling"""
     if g.number_of_nodes() < maxsize:
         return set()
     q = que.Queue()
@@ -28,8 +27,7 @@ that are collected from around seed node via snownball sampling"""
     return subgraph
 
 def surroundings(g, subgraph):
-    """This function returns the surrounding subgraph of
-input subgraph argument""" 
+    """This function returns the surrounding subgraph of input subgraph argument""" 
     surdngs = copy.copy(subgraph)
     for node in subgraph:
         for i in g.neighbors(node):
