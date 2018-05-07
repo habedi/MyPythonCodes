@@ -22,7 +22,6 @@ Practise makes perfect they say, So I'm trying to better my Python coding a litt
 12. A Python class to colourise text -> [colours.py](codes/colours.py)
 13. Logloss error -> [logloss.py](codes/logloss.py)
 
-
 ---
   Datasets:
 ---
