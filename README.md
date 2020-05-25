@@ -2,7 +2,7 @@
 
 Practise makes perfect they say, So I'm trying to better my Python coding a little.
 
-[![GitHub issues](https://img.shields.io/github/issues/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/MyPythonCodes/issues)	[![GitHub forks](https://img.shields.io/github/forks/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/network)	[![GitHub stars](https://img.shields.io/github/stars/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/stargazers)	[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=plastic)](https://raw.githubusercontent.com/habedi/-myPython-LanguageCodes/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/MyPythonCodes/issues)    [![GitHub forks](https://img.shields.io/github/forks/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/network)    [![GitHub stars](https://img.shields.io/github/stars/habedi/-myPython-LanguageCodes.svg?style=plastic)](https://github.com/habedi/-myPython-LanguageCodes/stargazers)    [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=plastic)](https://raw.githubusercontent.com/habedi/-myPython-LanguageCodes/master/LICENSE)
 
 ---
   My Python codes so far:
@@ -10,7 +10,7 @@ Practise makes perfect they say, So I'm trying to better my Python coding a litt
 
 
 1. Bi-Partite Graphs in Igraph (Py2) -> [bipartite.py](bipartite.py)
-2. A Timer class to find out about the running time of a of piece of code in Python -> [timer.py](codes/timer.py)
+2. A Timer class to find out about the running time of a piece of code in Python -> [timer.py](codes/timer.py)
 3. A Python class to get the degree distribution of nodes of a graph via SNAPY -> [graph_deg_distr.py](codes/graph_deg_distr.py)
 4. A Python class to search the web and get the URLs of found results via Yahoo search engine -> [ysearch.py](codes/ysearch.py)
 5. Snowball-Sampling in NetworkX -> [snowball_sampling.py](codes/snowball_sampling.py)
